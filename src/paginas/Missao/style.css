@@ -1,0 +1,26 @@
+.cards-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 50%;
+    padding: 5px;
+    margin: 40px 0 0 0;
+    background-color: rgba(196, 196, 196, 0.801);
+    border: 1px solid rgba(196, 196, 196, 0.801);
+    border-radius: 5px;
+}
+
+.cards-container .card:first-child {
+    margin: 90px 0 0 0;
+}
+
+@media (max-width: 600px){
+    .card p{
+        font-size: 14px;
+    }
+}

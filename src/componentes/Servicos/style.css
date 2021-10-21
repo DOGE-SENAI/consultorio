@@ -1,0 +1,22 @@
+.lista-servicos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.lista-servicos li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.lista-servicos li img {
+    object-fit: contain;
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+}
+.lista-servicos li p{
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+}

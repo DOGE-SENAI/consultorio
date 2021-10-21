@@ -1,0 +1,62 @@
+.planos-container {
+    width: 100%;
+    min-height: 564px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.plano {
+    width: 300px;
+    height: 350px;
+    padding: 5px;
+    margin: 90px 0 0 0;
+    background-color: rgba(223, 223, 223, 0.801);
+    border: 1px solid rgba(223, 223, 223, 0.801);
+    border-radius: 5px;
+}
+
+.plano h2 {
+    color: #1b3675;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.plano h3 {
+    color: #2d51a5;
+    font-size: 16px;
+}
+
+.plano p {
+    color: #133481;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.btn-contratar {
+    border: 1px solid #1b3675;
+    border-radius: 3px;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color:#1b3675;
+    color: #fff;
+}
+
+@media (max-width: 600px){
+    .planos-container{
+        flex-direction: column;
+    }
+
+    .plano {
+        width: 200px;
+        margin: 40px 0 0 0;
+    }
+
+    .planos-container .plano:first-child{
+        margin: 90px 0 0 0;
+        height: 380px;
+    }
+}
